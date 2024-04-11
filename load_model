@@ -1,0 +1,5 @@
+# @markdown Загрузить обученную модель формата .h5
+from tensorflow.keras.models import load_model
+модель_на_Google_drive = '' #@param{type:"string"}
+my_model_new="/content/drive/MyDrive/"+модель_на_Google_drive
+model=load_model(my_model_new)
