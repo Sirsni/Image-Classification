@@ -1,0 +1,10 @@
+from google.colab import files
+# @markdown Скачать обученную модель
+
+назовите_модель = "" #@param {type:"string"}
+назовите_модель+='.h5'
+
+model.save(назовите_модель)
+
+
+files.download(назовите_модель)
