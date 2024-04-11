@@ -5,4 +5,5 @@
 •	Batch size – общее число тренировочных объектов, представленных в одном батче
 •	Validation dataset split – доля изображений в датасете, используемая при проверке эффективности
 •	Эпохи – количество проходов датасета через нейронную сеть в прямом и обратном направлении 
+Ссылка на Colab - https://colab.research.google.com/drive/1Kk3Crd0zsMACy-vrHDbzLSI2DD-cdovx?usp=sharing
 
